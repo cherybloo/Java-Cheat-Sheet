@@ -1,5 +1,7 @@
+// java.util.Scanner library -> to get user input
 import java.util.Scanner;
 
+// public class **App** -> change App to whatever your java file's name
 public class App {
     public static void main(String[] args){
         Greeting();
