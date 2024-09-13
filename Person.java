@@ -1,6 +1,8 @@
+// A public class is accessible from anywhere in the program,
+// regardless of the package it belongs to
+
 // Get and setter 
 // public class **Person** -> change Person to whatever your java file's name
-
 public class Person{
     // Set all the private variables up here
     private String name;
