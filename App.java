@@ -13,8 +13,8 @@ public class App {
         // NonStaticHelper nsc = new NonStaticHelper();
         // nsc.sum(2,3);
     
-        // Encapsulation en = new Encapsulation();
-        // en.Testing();
+        /* Encapsulation en = new Encapsulation(); */
+        Encapsulation.Testing();
 /*         prob.Fizzbuzz.Solve(1, 15);
         Fizzbuzz fz = new Fizzbuzz();
         fz.Hello(); */
@@ -22,7 +22,7 @@ public class App {
 }
 
 
-// Static Method -> You don't need to instance this object. Syntax: StaticHelper.xxx();
+// Static Method -> You don't need to create an instance of this object. Syntax: StaticHelper.xxx();
 class StaticHelper{
 
     // Simple addition method that returns the sum
@@ -43,7 +43,7 @@ class StaticHelper{
     }
 }
 
-// Non-Static Method -> You need to instance this object. Syntax: NonStaticHelper xxx = new NonStaticHelper();
+// Non-Static Method -> You need to create an instance of this object. Syntax: NonStaticHelper xxx = new NonStaticHelper();
 class NonStaticHelper{
 
     // Simple addition method that prints the result with a custom message
