@@ -12,9 +12,7 @@ public class App {
         // Use case of non static methods
         // NonStaticHelper nsc = new NonStaticHelper();
         // nsc.sum(2,3);
-    
-        /* Encapsulation en = new Encapsulation(); */
-        Encapsulation.Testing();
+
 /*         prob.Fizzbuzz.Solve(1, 15);
         Fizzbuzz fz = new Fizzbuzz();
         fz.Hello(); */
